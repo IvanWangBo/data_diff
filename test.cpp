@@ -19,25 +19,5 @@ int main() {
 	scanf("%04d%02d%02d", &y_s, &m_s, &d_s);
 	scanf("%04d%02d%02d", &y_e, &m_e, &d_e);
 	printf("%d\n", day_diff(y_s, m_s, d_s, y_e, m_e, d_e));
-	freopen("in7.in", "r", stdin);
-	freopen("out7.out", "w", stdout);
-	scanf("%04d%02d%02d", &y_s, &m_s, &d_s);
-	scanf("%04d%02d%02d", &y_e, &m_e, &d_e);
-	printf("%d\n", day_diff(y_s, m_s, d_s, y_e, m_e, d_e));
-	freopen("in8.in", "r", stdin);
-	freopen("out8.out", "w", stdout);
-	scanf("%04d%02d%02d", &y_s, &m_s, &d_s);
-	scanf("%04d%02d%02d", &y_e, &m_e, &d_e);
-	printf("%d\n", day_diff(y_s, m_s, d_s, y_e, m_e, d_e));
-	freopen("in9.in", "r", stdin);
-	freopen("out9.out", "w", stdout);
-	scanf("%04d%02d%02d", &y_s, &m_s, &d_s);
-	scanf("%04d%02d%02d", &y_e, &m_e, &d_e);
-	printf("%d\n", day_diff(y_s, m_s, d_s, y_e, m_e, d_e));
-	freopen("in10.in", "r", stdin);
-	freopen("out10.out", "w", stdout);
-	scanf("%04d%02d%02d", &y_s, &m_s, &d_s);
-	scanf("%04d%02d%02d", &y_e, &m_e, &d_e);
-	printf("%d\n", day_diff(y_s, m_s, d_s, y_e, m_e, d_e));
 	return 0;
 }
